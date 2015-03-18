@@ -16,7 +16,7 @@
 > * 在javaTarget目录下会有你要的:D
 
 ### GIF展示
-
+![](https://raw.githubusercontent.com/johnwatson5412/json2pojo-saber-for-windows/master/showcase.gif)
 
 ## BAT文件说明
 
