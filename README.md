@@ -16,7 +16,7 @@
 > * 在javaTarget目录下会有你要的:D
 
 ### GIF展示
-
+![](https://raw.githubusercontent.com/johnwatson5412/json2pojo-saber-for-windows/master/showcase.gif)
 
 ## BAT文件说明
 
@@ -26,7 +26,8 @@
 | DragSingleFileInMe.bat   | 处理单个Json文件 |
 
 ## 关于
-本工具受[jsonschema2pojo](https://github.com/joelittlejohn/jsonschema2pojo)启发，欢迎大家提出建议或者Bug，`MAC`或`LINUX`用户可以考虑移植。
+本工具受[jsonschema2pojo](https://github.com/joelittlejohn/jsonschema2pojo)启发。<br>
+欢迎大家`STAR`/`FORK`。期待提出建议或者Bug，`MAC`或`LINUX`用户可以考虑移植。<br>
 再次表示对[Joe Littlejohn](https://twitter.com/joelittlejohn)的感谢!!!
 
 ## 许可证
