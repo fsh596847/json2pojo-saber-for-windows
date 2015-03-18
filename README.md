@@ -9,11 +9,11 @@
 
 ## 使用方法
 > * 下载本项目到本地，解压。
-> * 把模板Json文件或扔到%YourDir%\json2pojo for windows目录下
+> * 把模板Json文件扔到%YourDir%\json2pojo for windows目录下
 > * 或在%YourDir%\json2pojo for windows目录下新建%YourJsonDir%文件夹，把多个模板Json文件扔到该目录下
 > * 拖拽单个模板Json文件到`DragJsonDirInMe.bat`
-> * 拖拽包含若干Json文件的文件夹到`DragSingleFileInMe.bat`
-> * 在javaTarget目录下会有你要的:D
+> * 拖拽%YourJsonDir%文件夹到`DragSingleFileInMe.bat`
+> * 在javaTarget目录下有惊喜:D
 
 ### GIF展示
 ![](https://raw.githubusercontent.com/johnwatson5412/json2pojo-saber-for-windows/master/showcase.gif)
