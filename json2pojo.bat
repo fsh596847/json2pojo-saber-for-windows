@@ -1,14 +1,14 @@
 @echo off
-rem »ñÈ¡ÍÏ×§ÎÄ¼şµÄÃû×Ö(²»º¬ºó×ºÃû)
+:: rem è·å–æ‹–æ‹½æ–‡ä»¶çš„åå­—(ä¸å«åç¼€å)
 set jsonName=%~n1
-rem »ñÈ¡ÍÏ×§ÎÄ¼şµÄ¾ø¶ÔÂ·¾¶
+:: rem è·å–æ‹–æ‹½æ–‡ä»¶çš„ç»å¯¹è·¯å¾„
 set fileAbsPath=%1
-rem Éú³ÉÄ¿±êÎÄ¼şµÄÏà¶ÔÂ·¾¶
+:: rem ç”Ÿæˆç›®æ ‡æ–‡ä»¶çš„ç›¸å¯¹è·¯å¾„
 set javaDir=javaTarget\%jsonName%
 
-:: rem »ñÈ¡ÍÏ×§µÄjsonÎÄ¼şÈ«Ãû
+:: rem è·å–æ‹–æ‹½çš„jsonæ–‡ä»¶å…¨å
 :: set jsonFile=%jsonName%.json
 
-rem .........do jsonschema2pojo command..........
+:: rem .........do jsonschema2pojo command..........
 :: jsonschema2pojo --source %jsonFile% --target %javaDir% -a GSON -T JSON
 jsonschema2pojo --source %fileAbsPath% --target %javaDir% -a GSON -T JSON
