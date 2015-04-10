@@ -25,6 +25,10 @@
 | DragJsonDirInMe.bat      | 处理包含若干Json文件的文件夹 |
 | DragSingleFileInMe.bat   | 处理单个Json文件 |
 
+## 注意事项
+
+**Json**文件必须是**UTF-8**编码!!!
+
 ## 关于
 本工具受[jsonschema2pojo](https://github.com/joelittlejohn/jsonschema2pojo)启发。<br>
 欢迎大家`STAR`/`FORK`。期待提出建议或者Bug，`MAC`或`LINUX`用户可以考虑移植。<br>
